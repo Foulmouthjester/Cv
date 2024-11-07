@@ -1,0 +1,78 @@
+/* General Reset */
+/* styles.css */
+body {
+    background-image: url('images/mountain.jpg'); 
+    background-size: cover;   
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;    
+    color: #da0b0b;
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700    
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    
+    font-size: 20px;
+    color: #0f7eed;
+    margin-bottom: 10px;
+    font-weight: 900
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+ h3
+{font-style: italic;}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #3339e3;
+}
+
+/* Contact Links */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
